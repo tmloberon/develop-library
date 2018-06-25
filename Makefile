@@ -1,3 +1,3 @@
 ALL: 
-	composer update
+	composer update -o
 	box build
