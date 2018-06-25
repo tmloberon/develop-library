@@ -1,0 +1,13 @@
+{
+    "name": "tmatthaiou/private_composer_lib",
+    "type": "library",
+    "require": {
+        "symfony/var-dumper": "^3.4"
+    },
+    "authors": [
+        {
+            "name": "Tobias Matthaiou",
+            "email": "tm@loberon.de"
+        }
+    ]
+}

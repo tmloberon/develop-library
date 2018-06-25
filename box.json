@@ -1,0 +1,31 @@
+{
+    "alias": "box.phar",
+    "chmod": "0755",
+    "compactors": [
+        "Herrera\\Box\\Compactor\\Json",
+        "Herrera\\Box\\Compactor\\Php"
+    ],
+    "finder": [
+        {
+            "name": "*.php",
+            "exclude": [
+                "File",
+                "mikey179",
+                "Net",
+                "phpunit",
+                "phpunit-test-case",
+                "Tester",
+                "Tests",
+                "tests",
+                "yaml"
+            ],
+            "in": "./vendor"
+        }
+    ],
+    "directories": ["./vendor"],
+    "main": "vendor/autoload.php",
+    "stub": true,
+    "shebang": false,
+    "web": false,
+    "output": "devLibs.phar"
+}
